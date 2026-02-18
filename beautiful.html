@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indushree D | Full Portfolio</title>
+    <style>
+        :root {
+            --accent: #00f2fe;
+            --secondary: #4facfe;
+            --bg-dark: #0f172a;
+            --text-main: #f8fafc;
+            --glass-white: rgba(255, 255, 255, 0.05);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: var(--glass-white);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 50px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+            text-align: left;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            background: linear-gradient(to right, var(--accent), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .contact-bar {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        .contact-bar a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        h2 {
+            color: var(--secondary);
+            font-size: 1.5rem;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+            margin-left: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 25px;
+            border-radius: 16px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            border-color: var(--accent);
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .skill-category {
+            font-weight: bold;
+            color: var(--accent);
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .project-url {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(79, 172, 254, 0.1);
+            color: var(--secondary);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin: 5px;
+            border: 1px solid var(--secondary);
+        }
+
+        @media (max-width: 768px) {
+            .container { padding: 25px; }
+            h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>INDUSHREE D</h1>
+        <div class="contact-bar">
+            <span>📍 Bengaluru, Karnataka</span>
+            <span>📞 (+91) 9353299320</span>
+            <a href="mailto:indushreed1@gmail.com">indushreed1@gmail.com</a>
+            <a href="https://github.com/Indushree7" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/indushree-d-81a235245/" target="_blank">LinkedIn</a>
+        </div>
+        <p style="margin-top: 20px; color: #cbd5e1;">[cite: 1, 2, 4] Results-oriented final year Computer Science (IOT) student specializing in backend development and Machine Learning. Proficient in C++, Python, Flask, and MySQL with hands-on experience developing and deploying REST APIs. [cite: 4, 5]</p>
+    </header>
+
+    <section>
+        <h2>Academic Background</h2>
+        <table>
+            <tr>
+                <th>Level</th>
+                <th>Institution</th>
+                <th>Result</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>B.E (CSE - IoT)</td>
+                <td>Sir M. Visvesvaraya Institute of Technology [cite: 7]</td>
+                <td>9.21 CGPA [cite: 7]</td>
+                <td>2022-2026 [cite: 7]</td>
+            </tr>
+            <tr>
+                <td>Class 12</td>
+                <td>Arvind PU College, Kunigal [cite: 7]</td>
+                <td>90.67% [cite: 7]</td>
+                <td>2021 [cite: 7]</td>
+            </tr>
+            <tr>
+                <td>Class 10</td>
+                <td>Arvind International School, Kunigal [cite: 8]</td>
+                <td>87% [cite: 8]</td>
+                <td>2019 [cite: 7]</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Technical Arsenal</h2>
+        <div class="grid">
+            <div class="card">
+                <span class="skill-category">Languages & Databases</span>
+                C++, Python, C [cite: 10], MySQL [cite: 13]
+            </div>
+            <div class="card">
+                <span class="skill-category">Web & Frameworks</span>
+                HTML, CSS, JavaScript [cite: 11], Flask, Scikit-learn, Pandas, NumPy [cite: 12]
+            </div>
+            <div class="card">
+                <span class="skill-category">Core Concepts</span>
+                Data Structures, Algorithms, OOPs, NLP, Machine Learning [cite: 12]
+            </div>
+            <div class="card">
+                <span class="skill-category">IoT & Tools</span>
+                ESP32, ThingSpeak [cite: 14], GitHub, Linux, VS Code [cite: 14]
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Detailed Projects</h2>
+        
+        <div class="card" style="margin-bottom: 20px;">
+            <strong style="font-size: 1.2rem;">Phishing URL Detection</strong> [cite: 17]
+            <p>Architected a Flask-based REST API backend for real-time URL classification. [cite: 18] Used Logistic Regression on a 600,000-URL dataset to achieve 98% accuracy. [cite: 18] Utilized TF-IDF vectorization for sophisticated analysis. [cite: 19]</p>
+            <a href="https://github.com/Indushree7/PHISHING-URL-DETECTION" class="project-url">🔗 View Project Repository</a>
+        </div>
+
+        <div class="card" style="margin-bottom: 20px;">
+            <strong style="font-size: 1.2rem;">AI Legal Assistant</strong> [cite: 24]
+            <p>Developed an assistant using the CrewAI multi-agent framework. [cite: 26] Analyzes legal queries to identify IPC sections and drafts preliminary complaints. [cite: 27] Features real-time response streaming for a chatbot-like experience. [cite: 29]</p>
+            <a href="https://github.com/Indushree7/AI-LEGAL-ASSISTANT" class="project-url">🔗 View Project Repository</a>
+        </div>
+
+        <div class="card" style="margin-bottom: 20px;">
+            <strong style="font-size: 1.2rem;">Live Weather Data Viewer</strong> [cite: 20]
+            <p>Created a responsive application for real-time weather display, optimizing API calls for sub-second load times. [cite: 22] Integrated dynamic UI updates with over 10 distinct weather icons. [cite: 23]</p>
+            <a href="https://github.com/Indushree7/LIVE-WEATHER-DATA-VIEWER" class="project-url">🔗 View Project Repository</a>
+        </div>
+
+        <div class="card">
+            <strong style="font-size: 1.2rem;">Smart Waste Management (Ongoing)</strong> [cite: 30]
+            <p>Developing an IoT system using ESP32, ultrasonic sensors, and Wi-Fi to monitor bin levels. [cite: 30] Plans to integrate ThingSpeak for data visualization. [cite: 31]</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Accomplishments & Activities</h2>
+        <div class="grid">
+            <div class="card">
+                <span class="skill-category">Certifications</span>
+                <span class="badge">Google Cloud: Generative AI [cite: 38]</span>
+                <span class="badge">Udemy: AI Essentials [cite: 39]</span>
+                <span class="badge">HackerRank: Problem Solving [cite: 37]</span>
+            </div>
+            <div class="card">
+                <span class="skill-category">Extracurricular</span>
+                <ul>
+                    <li>NSS Volunteer: Health and environmental outreach [cite: 33, 34]</li>
+                    <li>Badminton & Shot put enthusiast [cite: 35]</li>
+                    <li>Active on LeetCode & GFG for DSA [cite: 40]</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align: center; margin-top: 50px; color: #64748b; font-size: 0.8rem;">
+        <p>Professional Portfolio of Indushree D [cite: 1] | Last Updated: February 2026</p>
+        <p>Languages: English (Professional), Kannada (Native) [cite: 15]</p>
+    </footer>
+</div>
+
+</body>
+</html>
